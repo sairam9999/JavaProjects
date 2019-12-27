@@ -1,0 +1,23 @@
+package emailapp;
+
+public class EmailApp {
+
+	public static void main(String[] args) {
+
+		Email emailObj = new Email("Bill", "Anderson");
+		
+//		Following are the place holders for setting Mail Box Capacity, Alternate Email and Password.
+//		emailObj.setMailBoxCapacity(capacity);
+//		System.out.println(emailObj.getMailBoxCapacity());
+		
+//		emailObj.setAlternateEmail(altEmail);
+//		System.out.println(emailObj.getAlternateEmail());
+		
+//		emailObj.setPassword(password);
+//		System.out.println(emailObj.getPassword());
+		
+		System.out.println(emailObj.showInfo());
+		
+	}
+
+}
